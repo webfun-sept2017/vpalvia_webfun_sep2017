@@ -5,12 +5,18 @@
 }
 #wrapper{
  width: 950px;
+ height:600px;
  background-color: silver;
- margin: 0px auto;
+ position:absolute;
+ padding-right: 20px;
+ padding-left:20px;
 }
 #header{
  height: 150px;
  background-color: green;
+ margin: 20px auto;
+ position: relative;
+ 
 }
 #navigation{
  height: 300px;
@@ -19,16 +25,27 @@
 }
 #main_content{
  height: 400px;
- width: 700px;
+ width: 720px;
  background-color: red;
+ position: relative;
+ left: 230px;
+ bottom: 300px;
 }
 .subcontents{
  height: 200px;
  width: 210px;
  background-color: yellow;
+ display: inline-block;
+ position: relative;
+ left: 10px;
+ top: 10px;
+ padding-left: 20px;
 }
 #advertisement{
  height: 120px;
  width: 660px;
  background-color: purple;
+ position: absolute;
+ top: 240px;
+ left: 10px;
 }

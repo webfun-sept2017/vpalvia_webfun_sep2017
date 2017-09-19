@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>For a few billion</title>
+       <meta charset="UTF-8">
+      <script>
+      var myReward=0.01;
+      var myReward_nth_Day=0.01;
+      for(var i=2;i<30;i++)
+      {
+         myReward_nth_Day*=2;
+          myReward+=myReward_nth_Day;
+         
+      }
+      console.log("Total reward after 30 days:",myReward);
+   </script>
+</html>

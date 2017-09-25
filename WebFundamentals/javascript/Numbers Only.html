@@ -1,0 +1,20 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>Numbers Only</title> 
+<script type="text/javascript"> 
+  var array = ["ABC", 1, "DEF", 27, "GHI", 4]; 
+     function numbersOnly(array) { 
+      var new_array = []; 
+      for (var i = 0; i < array.length; i++) { 
+       if(typeof(array[i]) == "number") { 
+          new_array.push(array[i]) 
+        } 
+      } 
+      console.log(new_array); 
+      return new_array; 
+    } 
+    numbersOnly(array); 
+  </script> 
+ </head> 
+</html> 
